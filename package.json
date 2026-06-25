@@ -1,6 +1,6 @@
 {
 	"name": "note-radar",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Track view statistics for your vault notes. Analyze them with a detailed dashboard.",
 	"main": "main.js",
 	"type": "module",
