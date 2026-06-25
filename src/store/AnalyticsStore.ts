@@ -26,7 +26,7 @@ export class AnalyticsStore {
 				this.data = createEmptyAnalyticsData();
 			}
 		} catch (error) {
-			console.error('Note Analytics: Error loading data', error);
+			console.error('Note Metrics: Error loading data', error);
 			this.data = createEmptyAnalyticsData();
 		}
 	}
@@ -36,7 +36,7 @@ export class AnalyticsStore {
 			this.data.lastUpdated = new Date().toISOString();
 			await this.plugin.saveData(this.data);
 		} catch (error) {
-			console.error('Note Analytics: Error saving data', error);
+			console.error('Note Metrics: Error saving data', error);
 		}
 	}
 

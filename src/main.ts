@@ -15,7 +15,7 @@ export default class NoteAnalyticsPlugin extends Plugin {
 
 		this.addRibbonIcon(
 			'bar-chart-2',
-			'Note analytics dashboard',
+			'Note Metrics dashboard',
 			async (_evt: MouseEvent) => {
 				await this.activateDashboard();
 			},
@@ -44,7 +44,7 @@ export default class NoteAnalyticsPlugin extends Plugin {
 			name: 'Export statistics JSON',
 			callback: async () => {
 				const json = this.store.exportJSON();
-				const fileName = `note-analytics-export-${new Date().toISOString().slice(0, 10)}.json`;
+				const fileName = `note-metrics-export-${new Date().toISOString().slice(0, 10)}.json`;
 
 				try {
 					await this.app.vault.create(fileName, json);
@@ -59,7 +59,7 @@ export default class NoteAnalyticsPlugin extends Plugin {
 						);
 					} else {
 						new Notice('❌ An error occurred during export.');
-						console.error('Note Analytics: Export error', error);
+						console.error('Note Metrics: Export error', error);
 					}
 				}
 			},

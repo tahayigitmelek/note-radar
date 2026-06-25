@@ -1,7 +1,7 @@
 {
-	"name": "note-analytics",
+	"name": "note-metrics",
 	"version": "1.0.0",
-	"description": "Obsidian plugin: Vault içindeki notların görüntülenme istatistiklerini takip eder.",
+	"description": "Track view statistics for your vault notes. Analyze them with a detailed dashboard.",
 	"main": "main.js",
 	"type": "module",
 	"scripts": {

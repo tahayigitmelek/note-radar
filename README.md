@@ -1,6 +1,6 @@
-# Note Analytics
+# Note Metrics
 
-Note Analytics is an Obsidian plugin that automatically tracks view statistics for the notes in your vault. It helps you understand which notes you revisit most often, which notes have never been opened, and how your vault activity changes over time.
+Note Metrics is an Obsidian plugin that automatically tracks view statistics for the notes in your vault. It helps you understand which notes you revisit most often, which notes have never been opened, and how your vault activity changes over time.
 
 ## Features
 
@@ -26,7 +26,7 @@ Note Analytics is an Obsidian plugin that automatically tracks view statistics f
 
 ## Usage
 
-**Tracking Views:** Enable the plugin and open any Markdown note. Note Analytics will automatically increment that note's view count.
+**Tracking Views:** Enable the plugin and open any Markdown note. Note Metrics will automatically increment that note's view count.
 
 **Opening the Dashboard:** Select the bar chart icon in the left ribbon, or use the **Open analytics dashboard** command from the Command Palette.
 
@@ -34,6 +34,6 @@ Note Analytics is an Obsidian plugin that automatically tracks view statistics f
 
 **Opening a Note:** Select a note name in the dashboard table to open that note directly.
 
-**Exporting Data:** Use the **Export statistics JSON** command from the Command Palette. The plugin creates a `note-analytics-export-YYYY-MM-DD.json` file in your vault.
+**Exporting Data:** Use the **Export statistics JSON** command from the Command Palette. The plugin creates a `note-metrics-export-YYYY-MM-DD.json` file in your vault.
 
 **Resetting Data:** Use the **Reset statistics** command from the Command Palette to clear all recorded view statistics.

@@ -1,6 +1,6 @@
 {
-	"id": "note-analytics",
-	"name": "Note Analytics",
+	"id": "note-metrics",
+	"name": "Note Metrics",
 	"version": "1.0.0",
 	"minAppVersion": "1.11.4",
 	"description": "Track view statistics for your vault notes. Analyze them with a detailed dashboard.",
