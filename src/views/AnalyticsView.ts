@@ -6,7 +6,7 @@ import {
 	SortColumn,
 } from '../types';
 
-export const ANALYTICS_VIEW_TYPE = 'note-metrics-dashboard';
+export const ANALYTICS_VIEW_TYPE = 'note-radar-dashboard';
 
 const COLUMN_LABELS: Record<SortColumn, string> = {
 	name: 'Note Name',
@@ -38,7 +38,7 @@ export class AnalyticsView extends ItemView {
 	}
 
 	getDisplayText(): string {
-		return 'Note Metrics dashboard';
+		return 'Note Radar dashboard';
 	}
 
 	getIcon(): string {
@@ -60,7 +60,7 @@ export class AnalyticsView extends ItemView {
 	private render(): void {
 		const container = this.contentEl;
 		container.empty();
-		container.addClass('note-metrics-dashboard');
+		container.addClass('note-radar-dashboard');
 
 		this.renderHeader(container);
 
@@ -75,7 +75,7 @@ export class AnalyticsView extends ItemView {
 
 		const titleRow = header.createDiv({ cls: 'na-header-title-row' });
 		titleRow.createEl('h2', {
-			text: '📊 Note Metrics dashboard',
+			text: '📊 Note Radar dashboard',
 			cls: 'na-title',
 		});
 	}
